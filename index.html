@@ -1,0 +1,24 @@
+
+<!DOCTYPE html> <html> <head> <meta charset="utf-8">
+ <title>События радуги с мышью</title>
+ <link rel="stylesheet" href="style.css">
+ </head>
+  <body>
+ <header> 
+     <a href="/index2.html">вперед</a>
+<h1>События радуги с мышью</h1> 
+<p>Наведите указатель мыши на событие, чтобы узнать больше!</p> 
+</header> <div id="events">
+ <div class="event" onclick="showModal('event1')"> <img class="pic" src="https://media.istockphoto.com/id/1271087162/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D1%80%D0%B0%D0%B4%D1%83%D0%B3%D0%B0-%D0%B0%D1%80%D0%BA%D0%B0-%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80-%D0%B7%D0%BD%D0%B0%D1%87%D0%BE%D0%BA-%D0%B4%D0%B5%D0%BA%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9-%D1%81%D0%B8%D0%BC%D0%B2%D0%BE%D0%BB-%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D1%8B-%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%B0-%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF-%D0%B7%D0%BD%D0%B0%D0%BA%D0%B0-%D0%BF%D0%BE%D0%BB%D0%BE%D1%81%D1%8B.jpg?s=612x612&w=0&k=20&c=j5rNcQpz5X1cH5NRUbw7TEFS5pc9DLaRAmrrSTawIAk=" alt="картинка для события 1">
+      <h2>Событие 1</h2> <p>Краткое описание события 1.</p> </div> <div class="event" onclick="showModal('event2')">
+           <img src="https://klike.net/uploads/posts/2019-06/1559456513_1.jpg" alt="картинка для события 2">
+            <h2>Событие 2</h2> <p>Краткое описание события 2.</p> 
+          </div> <div class="event" onclick="showModal('event3')">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0QQoWF2R_3ujuRxsvOpxPt8LuEMWUV08zBg&usqp=CAU" alt="картинка для события 3">
+                 <h2>Событие 3</h2> <p>Краткое описание события 3.</p> </div> </div> <div id="modal"> 
+                    <div id="modal-content"> <span id="close" onclick="hideModal()">&times;</span>
+                          <h2 id="modal-title"></h2> <img id="modal-img" src="" alt="картинка для события">
+                           <p id="modal-description"></p> </div> </div> <script src="script.js"></script> </body> </html>
+
+
+
